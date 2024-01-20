@@ -1,0 +1,221 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 0px;
+    padding-bottom: 2rem;
+    padding-left: 0px;
+    width: auto;
+    height: 50px;
+    background-color: rgba(195, 186, 172, 0.644);
+    font-family:Dosis, regular;
+    font-size: 20px;
+    font-weight: 400;
+}
+#Seconnecter{
+    color: #bf1e2e;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+#Aide, #Panier{
+        color: #000000;
+        text-decoration: none;
+        margin: 1rem;
+}
+
+body{
+    font-family: Montserrat, regular;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    font-weight: normal;
+    font-style: normal;
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+    background-size: auto auto;
+    color: #313133;
+    text-decoration: none;
+}
+
+div{
+    display: block;
+}
+
+img{
+    border-style: none;
+    display: block; 
+}
+
+button{
+    -webkit-appearance: button;
+    overflow: visible;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.-pbm{
+    padding-bottom: 16px;
+}
+
+.col1{
+    flex-basis: 75%;
+    max-width: 75%;
+    min-width: 75%;
+    width: 75%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.carte{
+    box-shadow: #aa48d854;
+    background-color: white;
+    border-radius: 4px 4px 4px 4px;
+    display: block;    
+}
+
+.-mtm{
+    margin-top: 16px;
+}
+
+.head1{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.-bb{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(241, 241, 242);
+}
+
+.cart1{
+    padding: 0px;
+    display: flex;
+    outline-color:initial;
+    outline-style: initial;
+    outline-width: 0px;
+}
+
+.img-a{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.main{
+    padding-left: 16px;
+    padding-right: 16px;
+    min-width: 0;
+    width: 100%;
+}
+
+.name{
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    white-space: normal;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.articlep{
+    font-size: .75rem;
+    padding-top: 4px;
+    align-items: center;
+    display: flex;
+    color: #af7d15;
+    margin: 0;
+    text-decoration: none;
+}
+
+.sd{
+    min-width: 30%;
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.price{
+    font-size: 1.25rem;
+    text-align: right;
+    font-weight: 500;
+    direction: ltr;
+}
+
+.bt{
+    padding-top: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.btn1{
+    margin-right: auto;
+    text-indent: 8px;
+    align-items: center;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: .875rem;
+    line-height: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Montserrat, Regular;
+    color: red ;
+    outline: 0;
+    border: 0;
+}
+
+.carte2{
+    flex-basis: 80%;
+    max-width: 80%;
+    min-width: 80%;
+    width: 80%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.price-t{
+    font-size: .875rem;
+    font-weight: 800;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.command{
+    background-color: #bf1e2e61;
+    border-radius: 2%;
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 1000;
+    display: flex;
+    padding: 8px;
+    margin: 8px;
+}
+
+#st{
+    display: flex;
+    font-size: medium;
+    width: 100%;
+    text-align: left;
+}
